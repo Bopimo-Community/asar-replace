@@ -1,0 +1,10 @@
+import os
+print("WARNING! THIS PROGRAM IS IN DEVELOPMENT. WE ARE NOT RESPONSIBLE FOR ANY DAMAGES THAT MAY OCCUR TO FILES OR YOUR BOPIMO ACCOUNT")
+path = input("path to app.asar (vanilla): ")
+backup = input("path to backup app.asar to: ")
+mod = input("path to modded app.asar: ")
+print(path)
+print(backup)
+print(mod)
+input("Continue? ")
+os.system("copy " + mod + path + "/Y")
